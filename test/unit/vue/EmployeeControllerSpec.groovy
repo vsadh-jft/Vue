@@ -17,7 +17,7 @@ class EmployeeControllerSpec extends Specification {
 
     void "Test the index action returns the correct model"() {
 
-        when: "The index action is executed"
+        when: "the index action is executed"
         controller.index()
 
         then: "The model is correct"
